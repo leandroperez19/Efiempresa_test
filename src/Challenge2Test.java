@@ -23,7 +23,7 @@ public class Challenge2Test {
         );
         String res = Challenge2.notifyStudents(MathStudents, FrenchStudents, MathFrenchStudents);
         String expected =
-                "Email enviado a: Luisa Andrade, Sandra Barahona, Jesus Rosales, Angela Suarez";
+                "Email enviado a: Sandra Barahona, Angela Suarez, Luisa Andrade, Jesus Rosales";
         assertEquals(expected, res);
     }
 

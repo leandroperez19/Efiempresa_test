@@ -10,7 +10,7 @@ public class Challenge2 {
     )
     {
         // Creamos un set vacio para guardar los estudiantes a los que ya se les ha enviado el email
-        Set<String> notifiedStudents = new HashSet<>();
+        Set<String> notifiedStudents = new LinkedHashSet<>();
 
         // Iteramos sobre los tres arreglos y chequeamos si el estudiante es de malaga, si esto se cumple
         // chequeamos si ya se le envio el email, si no se le ha enviado se agrega al set
